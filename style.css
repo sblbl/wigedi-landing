@@ -1,0 +1,82 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'IBM Plex Sans', sans-serif;
+	color: #000;
+}
+
+html {
+	font-size: 16px
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Darumadrop One', sans-serif;
+	color: #f774ba;
+}
+
+header {
+	width: 100vw;
+	text-align: center;
+	padding: 1rem 0;
+}
+
+main {
+	width: 100vw;
+	padding: 1rem;
+}
+
+section {
+	margin-bottom: 3rem;
+}
+
+section h3 {
+	margin-bottom: 1rem;
+}
+
+ul, ol {
+	list-style: "→" outside;
+	padding-left: 1rem;
+}
+
+ul#researchers {
+	list-style: none;
+	padding-left: 0;
+}
+
+ul#researchers h4 {
+	font-family: 'IBM Plex Sans', sans-serif;
+	margin-bottom: .5rem;
+	color: #000;
+}
+
+li, p {
+	margin-bottom: 1rem;
+}
+
+.researcher-info {
+	margin-bottom: .5rem;
+}
+
+.researcher-info p {
+	margin-bottom: 0;
+}
+
+footer {
+	width: 100vw;
+	text-align: center;
+	padding: 1rem 0;
+}
+
+footer p {
+	font-size: .7rem;
+	color: #999;
+	margin-bottom: 0;
+}
+
+@media screen and (min-width: 512px) {
+	main {
+		max-width: 512px;
+		margin: 0 auto;
+	}
+}
